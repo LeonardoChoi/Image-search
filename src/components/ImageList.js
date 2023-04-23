@@ -1,5 +1,5 @@
-function ImageList() {
-  return <div></div>;
+function ImageList({ images }) {
+  return <div>ImageList: {images.length}</div>;
 }
 
 export default ImageList;
