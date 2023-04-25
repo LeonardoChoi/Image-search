@@ -1,5 +1,7 @@
+import ImageShow from "./ImageShow";
+
 function ImageList({ images }) {
-  images.map();
+  // image objects have ids as a property which we are focusing in
   return <div>ImageList: {images.length}</div>;
 }
 
