@@ -1,7 +1,7 @@
 import React from "react";
 
-function ImageShow({ images }) {
-  return <div>{images.id}</div>;
+function ImageShow({ image }) {
+  return <div>{image.id}</div>;
 }
 
 export default ImageShow;
