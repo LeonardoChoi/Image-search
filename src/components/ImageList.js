@@ -1,8 +1,11 @@
 import ImageShow from "./ImageShow";
 
 function ImageList({ images }) {
+  const renderedImages = images.map((image) => {
+    return <ImageShow image={image} />;
+  });
   // image objects have ids as a property which we are focusing in
-  return <div>ImageList: {images.length}</div>;
+  return <div>{renderedImages}</div>;
 }
 
 export default ImageList;
