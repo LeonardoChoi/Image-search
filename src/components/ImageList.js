@@ -1,6 +1,7 @@
 import ImageShow from "./ImageShow";
 
 function ImageList({ images }) {
+  // function to map rendered images
   const renderedImages = images.map((image) => {
     return <ImageShow image={image} />;
   });
