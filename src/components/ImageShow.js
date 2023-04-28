@@ -1,7 +1,11 @@
 import React from "react";
 
 function ImageShow({ image }) {
-  return <div>{image.id}</div>;
+  return (
+    <div>
+      <img src={image.urls.small} alt="" />
+    </div>
+  );
 }
 
 export default ImageShow;
