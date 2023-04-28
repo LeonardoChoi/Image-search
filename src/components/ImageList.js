@@ -6,7 +6,7 @@ function ImageList({ images }) {
     return <ImageShow key={image.id} image={image} />;
   });
   // image objects have ids as a property which we are focusing in
-  return <div>{renderedImages}</div>;
+  return <div className="image-list">{renderedImages}</div>;
 }
 
 export default ImageList;
